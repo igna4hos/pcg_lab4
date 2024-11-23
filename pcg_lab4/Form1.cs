@@ -16,5 +16,11 @@ namespace pcg_lab4
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            var myForm = new Form2();
+            myForm.Show();
+        }
     }
 }
